@@ -1,0 +1,14 @@
+<h3>{{location}}</h3>
+<section class="current">
+   
+   
+   <p>Mest Osäkra Platser {{bestReview}} Idag</p>
+   <div class="list-group" ng-repeat="result in results">
+       <p class="list-group-item" >{{ result.address }}</p>
+       <p class="list-group-item">{{ result.description }}</p>
+       <p class="list-group-item">{{ result.type }}</p>
+
+
+   </div>
+   
+</section>

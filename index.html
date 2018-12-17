@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="servicesApp">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Safeplace</title>
+   <link rel="stylesheet" href="./bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <!--<link rel="stylesheet" href="bootstrap.min.js">-->
+</head>
+
+<body class="col-12">
+   <nav>
+       <li>
+           <a href="#!/">Home</a>
+       </li>
+       <li>
+           <a href="#!/bike">Search Places</a>
+       </li>
+   </nav>
+
+   <main ng-view></main>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+   <script src="https://code.angularjs.org/1.7.5/angular-route.min.js"></script>
+   <script src="app.js"></script>
+   <script src="controllers.js"></script>
+   <script src="services.js"></script>
+</body>
+
+</html>
